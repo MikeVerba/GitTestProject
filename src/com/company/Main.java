@@ -8,6 +8,7 @@ public class Main {
         welcome();
         goodbye();
 
+        System.out.println("Test conflict");
     }
 
     public static void welcome(){
@@ -16,5 +17,6 @@ public class Main {
 
     public static void goodbye(){
         System.out.println("Goodbye!");
+
     }
 }
